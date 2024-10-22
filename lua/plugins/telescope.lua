@@ -2,11 +2,7 @@ return {
 	{
 		'nvim-telescope/telescope.nvim',
 		dependencies = { 'nvim-lua/plenary.nvim' },
-		config = function()
-			local builtin = require("telescope.builtin")
-			vim.keymap.set("n", "<space>ff", builtin.find_files)
-			vim.keymap.set("n", "<space>fg", builtin.live_grep)
-		end,
+		
 	},
 	{
 		'nvim-telescope/telescope-ui-select.nvim',
