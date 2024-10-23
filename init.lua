@@ -23,3 +23,11 @@ vim.keymap.set('n', '<space>tk', ':Telescope keymaps <CR>')
 vim.keymap.set('n', '<space>tb', ':Telescope buffers <CR>')
 vim.keymap.set("n", "<space>ff", ':Telescope find_files <CR>')
 vim.keymap.set("n", "<space>fg", ':Telescope live_grep <CR>')
+
+---- teminal
+vim.keymap.set('n', '<space>tt', ':term <CR>')
+vim.keymap.set('t', '<Esc>', "<C-\\><C-n><C-w>h",{silent = true})
+
+---- toggle terminal
+vim.keymap.set('n', '<space>gh', ':ToggleTerm direction=horizontal <CR>');
+vim.keymap.set('n', '<space>gv', ':ToggleTerm direction=vertical <CR>');
