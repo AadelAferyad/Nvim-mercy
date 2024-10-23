@@ -29,5 +29,5 @@ vim.keymap.set('n', '<space>tt', ':term <CR>')
 vim.keymap.set('t', '<Esc>', "<C-\\><C-n><C-w>h",{silent = true})
 
 ---- toggle terminal
-vim.keymap.set('n', '<space>gh', ':ToggleTerm direction=horizontal <CR>');
-vim.keymap.set('n', '<space>gv', ':ToggleTerm direction=vertical <CR>');
+vim.keymap.set('n', '<space>gh', ':ToggleTerm direction=horizontal size=20 <CR>');
+vim.keymap.set('n', '<space>gv', ':ToggleTerm direction=vertical size=65 <CR>');
