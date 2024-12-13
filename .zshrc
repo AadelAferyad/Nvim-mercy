@@ -104,7 +104,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nvim='~/nvim-linux64/bin/nvim'
 alias vim='~/nvim-linux64/bin/nvim'
-alias tree='~/unix-tree-2.1.3/tree'
-alias so='source ~/.zshrc'
-alias rg='~/ripgrep-14.1.1-x86_64-unknown-linux-musl/rg'
-alias vconf='nvim ~/.config/nvim'

@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 mv nvim-linux64 ~/
-rm ~/.zshrc && mv .zshrc ~
-mv ~/nvim ~/.config/nvim
+rm -f ~/.zshrc && mv .zshrc ~
+mv ~/Nvim-mercy ~/.config/nvim
